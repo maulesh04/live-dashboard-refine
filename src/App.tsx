@@ -12,10 +12,10 @@ import dataProvider, {
 import routerBindings, {
   DocumentTitleHandler,
   UnsavedChangesNotifier,
-} from "@refinedev/react-router-v6";
+} from "@refinedev/react-router";
 import { App as AntdApp } from "antd";
 import { createClient } from "graphql-ws";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router";
 import { authProvider } from "./authProvider";
 import { ColorModeContextProvider } from "./contexts/color-mode";
 
@@ -43,7 +43,7 @@ function App() {
                   syncWithLocation: true,
                   warnWhenUnsavedChanges: true,
                   useNewQueryKeys: true,
-                  projectId: "sPnZoJ-3FBYLe-DR7tPQ",
+                  projectId: "puzQ0D-FNTx4R-MRKJLX",
                   liveMode: "auto",
                 }}
               >
